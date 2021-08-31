@@ -1,0 +1,17 @@
+{    
+    "configurationSource": "attributes",
+    "bindings": [
+      {
+        "type": "httpTrigger",
+        "methods": [
+          "get",
+          "post"
+        ],
+        "authLevel": "function",
+        "name": "req"
+      }
+    ],
+    "disabled": false,
+    "scriptFile": "../bin/shortenerTools.dll",
+    "entryPoint": "Cloud5mins.Function.UrlShortener.Run"
+  }
